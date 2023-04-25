@@ -249,6 +249,13 @@ If you get a "You need to update your app" or "institution not supported" error 
 
 If you get the console error "oauth uri does not contain a valid oauth_state_id query parameter", you are attempting to initialize Link with a redirect uri when it is not necessary to do so. The `receivedRedirectUri` should not be set when initializing Link for the first time. It is used when initializing Link for the second time, after returning from the OAuth redirect.
 
+## Credentials
+
+To test in the Sandbox environment, use any institution other than Capital One.
+
+Username: `user_good`
+Password: `pass_good`
+
 ## Testing OAuth
 
 Some institutions (primarily in Europe, but a small number in the US) require an OAuth redirect
